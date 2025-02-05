@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Flores</title>
-    <style>
+        <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -24,13 +24,15 @@
         .container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
+            gap: 10px;
             justify-content: center;
             padding: 20px;
+            max-width: 800px;
+            margin: auto;
         }
         .card {
             background: rgba(255, 255, 255, 0.9);
-            padding: 15px;
+            padding: 10px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
@@ -38,10 +40,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 220px;
         }
         iframe {
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
             border-radius: 5px;
             border: none;
         }
@@ -87,10 +90,33 @@
                 <div class="color" style="background-color: #ff66b2;" onclick="changeImage('flor1', 'https://drive.google.com/file/d/1USCxNXeAX69mW_dTdWI5yHwLfAGjoPY7/preview')"></div>
                 <div class="color" style="background-color: #d80000;" onclick="changeImage('flor1', 'https://drive.google.com/file/d/1ixIsraMSwSZJtVAmXxth4fuOsIQdaqrI/preview')"></div>
                 <div class="color" style="background-color: #ffd700;" onclick="changeImage('flor1', 'https://drive.google.com/file/d/1EORCkev3f90PTGbYGvSU-SFh4QDyhyCi/preview')"></div>
-                <div class="color" style="background-color: #ffffff; border: 1px solid #ccc;" onclick="changeImage('flor1', 'https://drive.google.com/file/d/1EJC_KmNX0I2QIpA_wvkvyyu5zwWQhX1o/preview')"></div>
+ <div class="color" style="background-color: #ffffff; border: 1px solid #ccc;" onclick="changeImage('flor1', 'https://drive.google.com/file/d/1EJC_KmNX0I2QIpA_wvkvyyu5zwWQhX1o/preview')"></div>
                 <div class="color" style="background-color: #ffb6c1;" onclick="changeImage('flor1', 'https://drive.google.com/file/d/1zi7C4JwwTj2r3dDrAa2lrQbh2gKVnJ4w/preview')"></div>
                 <div class="color" style="background: linear-gradient(45deg, purple, white);" onclick="changeImage('flor1', 'https://drive.google.com/file/d/1rHOeXfkWepmdNzPD3mHRCxO4wMTRyCib/preview')"></div>
                 <div class="color" style="background-color: #4169e1;" onclick="changeImage('flor1', 'https://drive.google.com/file/d/1rSFBgp_RslhUQN_ezPqjOFsN0RdbVMGl/preview')"></div>
+            </div>
+        </div>
+        <div class="card">
+            <iframe id="flor2" src="https://drive.google.com/file/d/1ym6dTKC8Xqau0dQDLNWXGIbrLb8zqWfh/preview" allowfullscreen></iframe>
+            <p class="description">Flor de Enfeite</p>
+            <p class="sub-description">Ramo c/ 5 flores</p>
+            <div class="colors">
+                <div class="color" style="background-color: #f5deb3;" onclick="changeImage('flor2', 'https://drive.google.com/file/d/1ym6dTKC8Xqau0dQDLNWXGIbrLb8zqWfh/preview')"></div>
+                <div class="color" style="background-color: #ff66b2;" onclick="changeImage('flor2', 'https://drive.google.com/file/d/1WkIZE1Z8U9q_aCWy6j-YAmp4mzTrOgRY/preview')"></div>
+                <div class="color" style="background-color: #c8a2c8;" onclick="changeImage('flor2', 'https://drive.google.com/file/d/1eFKN6MtiCVqZyo2mbYKkwX_alEOF2t0l/preview')"></div>
+            </div>
+        </div>
+        <div class="card">
+            <iframe id="flor3" src="https://drive.google.com/file/d/1YGcKUA400iDlrUMOnIN3DUfg_leKcCNW/preview" allowfullscreen></iframe>
+            <p class="description">Flor de Enfeite</p>
+            <p class="sub-description">Ramo c/ 5 flores</p>
+            <div class="colors">
+                <div class="color" style="background-color: #d8bfd8;" onclick="changeImage('flor3', 'https://drive.google.com/file/d/1YGcKUA400iDlrUMOnIN3DUfg_leKcCNW/preview')"></div>
+                <div class="color" style="background-color: #4169e1;" onclick="changeImage('flor3', 'https://drive.google.com/file/d/160T-MfleK0GpbN1OJClAgU8YToeo-rn3/preview')"></div>
+                <div class="color" style="background-color: #ffb6c1;" onclick="changeImage('flor3', 'https://drive.google.com/file/d/1wyhndgXLyJiSlKA-FQrYOCS4QSScF4rq/preview')"></div>
+                <div class="color" style="background-color: #ffffff; border: 1px solid #ccc;" onclick="changeImage('flor3', 'https://drive.google.com/file/d/12_A79fCjSLwZw589YuO1nPBcefUEyfy9/preview')"></div>
+                <div class="color" style="background-color: #ffd700;" onclick="changeImage('flor3', 'https://drive.google.com/file/d/17Nai0nJmohSR53O0Rdw2J10WVxWGCgt0/preview')"></div>
+                <div class="color" style="background-color: #d80000;" onclick="changeImage('flor3', 'https://drive.google.com/file/d/1rH9nSBw-b4eyc0nUe3NP_SMP6i69Ha8q/preview')"></div>
             </div>
         </div>
     </div>
