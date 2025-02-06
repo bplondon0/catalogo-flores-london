@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Flores</title>
-        <style>
+       <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             background: linear-gradient(to bottom, #ffecd2, #fcb69f);
             padding: 20px;
+            overflow-x: hidden;
         }
         h1 {
             font-size: 36px;
@@ -27,8 +28,9 @@
             gap: 10px;
             justify-content: center;
             padding: 20px;
-            max-width: 800px;
+            max-width: 100%;
             margin: auto;
+            overflow-x: auto;
         }
         .card {
             background: rgba(255, 255, 255, 0.9);
@@ -40,11 +42,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 220px;
+            min-width: 220px;
         }
         iframe {
-            width: 180px;
-            height: 180px;
+            width: 200px;
+            height: 200px;
             border-radius: 5px;
             border: none;
         }
