@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -22,16 +22,16 @@
             color: #7a3b2e;
             margin-bottom: 20px;
         }
-        .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            justify-content: center;
-            padding: 20px;
-            max-width: 100%;
-            margin: auto;
-            overflow-x: auto;
-        }
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+    overflow-x: auto;
+}
         .card {
             background: rgba(255, 255, 255, 0.9);
             padding: 10px;
@@ -86,7 +86,7 @@
     <div class="container">
         <div class="card">
             <iframe id="flor1" src="https://drive.google.com/file/d/1USCxNXeAX69mW_dTdWI5yHwLfAGjoPY7/preview" allowfullscreen></iframe>
-            <p class="description">Flor de Enfeite</p>
+            <p class="description">Flor Artificial</p>
             <p class="sub-description">Ramo c/ 5 flores</p>
             <div class="colors">
                 <div class="color" style="background-color: #ff66b2;" onclick="changeImage('flor1', 'https://drive.google.com/file/d/1USCxNXeAX69mW_dTdWI5yHwLfAGjoPY7/preview')"></div>
@@ -100,7 +100,7 @@
         </div>
         <div class="card">
             <iframe id="flor2" src="https://drive.google.com/file/d/1ym6dTKC8Xqau0dQDLNWXGIbrLb8zqWfh/preview" allowfullscreen></iframe>
-            <p class="description">Flor de Enfeite</p>
+            <p class="description">Flor Artificial</p>
             <p class="sub-description">Ramo c/ 5 flores</p>
             <div class="colors">
                 <div class="color" style="background-color: #f5deb3;" onclick="changeImage('flor2', 'https://drive.google.com/file/d/1ym6dTKC8Xqau0dQDLNWXGIbrLb8zqWfh/preview')"></div>
@@ -110,7 +110,7 @@
         </div>
         <div class="card">
             <iframe id="flor3" src="https://drive.google.com/file/d/1YGcKUA400iDlrUMOnIN3DUfg_leKcCNW/preview" allowfullscreen></iframe>
-            <p class="description">Flor de Enfeite</p>
+            <p class="description">Flor Artificial</p>
             <p class="sub-description">Ramo c/ 5 flores</p>
             <div class="colors">
                 <div class="color" style="background-color: #d8bfd8;" onclick="changeImage('flor3', 'https://drive.google.com/file/d/1YGcKUA400iDlrUMOnIN3DUfg_leKcCNW/preview')"></div>
@@ -120,6 +120,19 @@
                 <div class="color" style="background-color: #ffd700;" onclick="changeImage('flor3', 'https://drive.google.com/file/d/17Nai0nJmohSR53O0Rdw2J10WVxWGCgt0/preview')"></div>
                 <div class="color" style="background-color: #d80000;" onclick="changeImage('flor3', 'https://drive.google.com/file/d/1rH9nSBw-b4eyc0nUe3NP_SMP6i69Ha8q/preview')"></div>
             </div>
+</div>
+<div class="card">
+            <iframe id="flor4" src="https://drive.google.com/file/d/14BahSu60ukXgIMb-7tkBhvSNnQPcfplU/preview" allowfullscreen></iframe>
+            <p class="description">Flor Artificial</p>
+            <p class="sub-description">Ramo c/ 5 flores</p>
+            <div class="colors">
+                <div class="color" style="background-color: #ffcc66;" onclick="changeImage('flor4', 'https://drive.google.com/file/d/14BahSu60ukXgIMb-7tkBhvSNnQPcfplU/preview')"></div>
+                <div class="color" style="background-color: #800080;" onclick="changeImage('flor4', 'https://drive.google.com/file/d/1utzGUSBj22bIVbvgXGTz9kEPxuJdh8xf/preview')"></div>
+                <div class="color" style="background-color: #4169e1;" onclick="changeImage('flor4', 'https://drive.google.com/file/d/1mCeENe-Qy5euvDPLT8IgWi67jiwtc1DS/preview')"></div>
+                <div class="color" style="background-color: #ff66b2;" onclick="changeImage('flor4', 'https://drive.google.com/file/d/1j1P3SzXAVvjMAmF1ynuM-IA9SH0hrii_/preview')"></div>
+                <div class="color" style="background-color: #ffd700;" onclick="changeImage('flor4', 'https://drive.google.com/file/d/17Fzb9zbRHwB-0cOv528rysLQvbb3anND/preview')"></div>
+            </div>
+        </div>
         </div>
     </div>
     <script>
